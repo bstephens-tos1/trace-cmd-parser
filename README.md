@@ -8,7 +8,7 @@ thesis work with you in person.  For anyone else, note that this code is only as
 general as it needs to be for my thesis.  If you wish to modify this code at all,
 please do so (but let me see your final product, as I am curious about your use case).  If you want me to add some feature or generalize the code, feel free to ask me.
 
-parseFuncGraphReport.py is intended to parse the output of trace-cmd into an easy to handle CSV format.  This only works when trace-cmd is monitoring my workload generator, [loadgen](https://github.com/bstephens-tos1/loadgen), using the func-graph option.
+parseFuncGraphReport.py is intended to parse the output of trace-cmd into an easy to handle CSV format.  This only works when trace-cmd is monitoring my workload generator, [loadgen](https://github.com/bstephens-tos1/loadgen), using the function_graph option.
 For example, trace-cmd could be run as follows:
 
 ```
