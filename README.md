@@ -1,13 +1,6 @@
 # trace-cmd-parser
 ## A parsing script for trace-cmd/ftrace's func-graph output
 
-This repo represents one of two components of my master's thesis that I am making
-publicly available for portfolio reasons.  If you are reading this because I have
-applied to your company, know that I am happy to show and discuss more of my
-thesis work with you in person.  For anyone else, note that this code is only as
-general as it needs to be for my thesis.  If you wish to modify this code at all,
-please do so (but let me see your final product, as I am curious about your use case).  If you want me to add some feature or generalize the code, feel free to ask me.
-
 parseFuncGraphReport.py is intended to parse the output of trace-cmd into an easy to handle CSV format.  This only works when trace-cmd is monitoring my workload generator, [loadgen](https://github.com/bstephens-tos1/loadgen), using the function_graph option.
 For example, trace-cmd could be run as follows:
 
